@@ -18,7 +18,7 @@ class Linkedlist:
         while(current.next):
             current = current.next
         current.next = new_node
-        new_node.next=None
+        new_node.next = None
     def del_front(self):
         self.head = self.head.next
     def del_tail(self):

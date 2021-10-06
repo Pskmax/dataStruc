@@ -6,4 +6,4 @@ def reverseSort(lst):
 if __name__ == '__main__':
     lst =  list(map(int,input('Enter your List : ').split(',')))
     lst.sort()
-    print('List after Sorted :',reverseSort(lst))
+    print('List after Sorted :', reverseSort(lst))

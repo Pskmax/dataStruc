@@ -1,8 +1,4 @@
-def reverseSort(lst):
-    if not lst: 
-        return lst
-    return lst[-1:] + reverseSort(lst[:-1])
-
-lst =  list(map(int,input('Enter Input : ').split(',')))
-lst.sort()
-print('List after Sorted :',reverseSort(lst))
+inp1 = list(map(int, input().split()))  # --------> [test] remove single quot
+inp2 = input().split()                  # --------> ['test']
+print(inp1)
+print(inp2)
