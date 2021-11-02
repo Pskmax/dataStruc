@@ -1,3 +1,4 @@
+# not finished
 from collections import Counter
 
 inp = input('Enter number end with (-1) : ').split()
